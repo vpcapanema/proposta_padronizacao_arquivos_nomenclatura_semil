@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Padronização de Nomenclatura - Subsecretaria de Logística/SP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="https://www.saopaulo.sp.gov.br/wp-content/themes/saopaulogov/assets/images/logo-governo-sp.svg"
+                    alt="Governo SP" class="logo" onerror="this.style.display='none'">
+                <div class="header-text">
+                    <h1>Proposta de Padronização de Nomenclatura</h1>
+                    <p>Subsecretaria de Logística - Estado de São Paulo</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link active"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#pesquisa" class="nav-link"><i class="fas fa-search"></i> Pesquisa Normativa</a></li>
+                <li><a href="#proposta" class="nav-link"><i class="fas fa-file-alt"></i> Proposta</a></li>
+                <li><a href="#exemplos" class="nav-link"><i class="fas fa-code"></i> Exemplos</a></li>
+                <li><a href="#implementacao" class="nav-link"><i class="fas fa-tasks"></i> Implementação</a></li>
+                <li><a href="#ferramentas" class="nav-link"><i class="fas fa-tools"></i> Ferramentas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Section: Início -->
+        <section id="inicio" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-icon">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <h2>Padronização de Nomenclatura de Arquivos e Atributos</h2>
+                    <p class="lead">Uma proposta baseada em instrumentos normativos e boas práticas para gestão
+                        eficiente de dados geoespaciais e não geoespaciais</p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">Instrumentos Normativos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Tipos de Arquivos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Categorias Padronizadas</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Conformidade Legal</div>
+                        </div>
+                    </div>
+
+                    <div class="quick-formats">
+                        <h3>Formatos Rápidos de Referência</h3>
+                        <div class="format-cards">
+                            <div class="format-card">
+                                <div class="format-icon"><i class="fas fa-map-marked-alt"></i></div>
+                                <h4>Arquivos Geoespaciais</h4>
+                                <code>SUBLOG_[TEMA]_[DESCRICAO]_[ESCALA]_[ANO]_v01.ext</code>
+                                <p class="format-example">Ex: SUBLOG_LOGISTICA_CentrosDistribuicao_1-50k_2026_v01.gpkg
+                                </p>
+                            </div>
+                            <div class="format-card">
+                                <div class="format-icon"><i class="fas fa-file-alt"></i></div>
+                                <h4>Arquivos Não Geoespaciais</h4>
+                                <code>SUBLOG_[CATEGORIA]_[DESCRICAO]_[DATA]_v01.ext</code>
+                                <p class="format-example">Ex: SUBLOG_RELATORIO_GestaoMensal_2026-01_v01.pdf</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Pesquisa Normativa -->
+        <section id="pesquisa" class="section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-balance-scale"></i> Pesquisa em Bases Jurídicas e Normativas
+                </h2>
+                <p class="section-intro">Análise detalhada dos instrumentos normativos vigentes no Estado de São Paulo e
+                    âmbito federal que fundamentam esta proposta de padronização.</p>
+
+                <!-- Timeline -->
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2004-2012</div>
+                            <h3>Sistema de Arquivos do Estado de São Paulo (SAESP)</h3>
+                            <div class="legal-badge">Decreto Estadual SP nº 48.897/2004 e 58.052/2012</div>
+                            <p>Define política de gestão documental, estabelece tabela de temporalidade e organização
+                                por código de classificação.</p>
+                            <div class="status-indicator status-vigente">Vigente</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2010</div>
+                            <h3>e-ARQ Brasil - Modelo de Requisitos para SIGAD</h3>
+                            <div class="legal-badge">Resolução CONARQ nº 32/2010</div>
+                            <p>Define requisitos para gestão arquivística de documentos digitais com padrões para
+                                nomenclatura descritiva, estrutura hierárquica e controle de versão.</p>
+                            <ul class="directive-list">
+                                <li><i class="fas fa-check"></i> Nomenclatura descritiva e padronizada</li>
+                                <li><i class="fas fa-check"></i> Estrutura hierárquica de classificação</li>
+                                <li><i class="fas fa-check"></i> Metadados mínimos obrigatórios</li>
+                                <li><i class="fas fa-check"></i> Controle de versão</li>
+                            </ul>
+                            <div class="status-indicator status-vigente">Vigente e Aplicável</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2011</div>
+                            <h3>Lei de Acesso à Informação (LAI)</h3>
+                            <div class="legal-badge">Lei Federal nº 12.527/2011</div>
+                            <p>Estabelece obrigatoriedade de organização e classificação de informações públicas,
+                                exigindo catalogação e gestão documental adequada.</p>
+                            <div class="status-indicator status-vigente">Vigente</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2015</div>
+                            <h3>Política de Dados Abertos do Estado de São Paulo</h3>
+                            <div class="legal-badge">Decreto Estadual SP nº 61.559/2015</div>
+                            <p>Estabelece diretrizes para publicação de dados abertos, exigindo metadados descritivos e
+                                recomendando formatos abertos e interoperáveis.</p>
+                            <div class="status-indicator status-vigente">Vigente</div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item highlight">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2020</div>
+                            <h3>Política de Dados Geoespaciais do Estado de São Paulo</h3>
+                            <div class="legal-badge">Decreto Estadual SP nº 64.056/2020</div>
+                            <p><strong>Principal instrumento normativo para dados geoespaciais.</strong> Estabelece
+                                diretrizes completas para gestão, produção e compartilhamento de dados geoespaciais.</p>
+                            <ul class="directive-list">
+                                <li><i class="fas fa-check"></i> Padrões de metadados conforme INDE</li>
+                                <li><i class="fas fa-check"></i> Perfil MGB (Metadados Geoespaciais do Brasil)</li>
+                                <li><i class="fas fa-check"></i> Padrões internacionais ISO 19115 e ISO 19139</li>
+                                <li><i class="fas fa-check"></i> Nomenclatura baseada em CONCAR</li>
+                            </ul>
+                            <div class="status-indicator status-base">Base Principal da Proposta</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Normas Internacionais -->
+                <div class="standards-section">
+                    <h3><i class="fas fa-globe"></i> Padrões Internacionais Aplicáveis</h3>
+                    <div class="standards-grid">
+                        <div class="standard-card">
+                            <div class="standard-icon"><i class="fas fa-map"></i></div>
+                            <h4>ISO 19115-1:2014</h4>
+                            <p class="standard-subtitle">Metadados Geoespaciais</p>
+                            <p>Define elementos de metadados obrigatórios para dados geoespaciais, aplicável a todos os
+                                dados geográficos da Subsecretaria.</p>
+                        </div>
+                        <div class="standard-card">
+                            <div class="standard-icon"><i class="fas fa-archive"></i></div>
+                            <h4>ISO 15489</h4>
+                            <p class="standard-subtitle">Gestão de Documentos</p>
+                            <p>Norma internacional para gestão de registros, estabelecendo princípios para nomenclatura
+                                e classificação documental.</p>
+                        </div>
+                        <div class="standard-card">
+                            <div class="standard-icon"><i class="fas fa-database"></i></div>
+                            <h4>Dublin Core (DCMI)</h4>
+                            <p class="standard-subtitle">Padrão para Metadados</p>
+                            <p>15 elementos básicos de metadados amplamente usados para documentos digitais e recursos
+                                informacionais.</p>
+                        </div>
+                        <div class="standard-card">
+                            <div class="standard-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <h4>ISO 8601</h4>
+                            <p class="standard-subtitle">Formato de Data e Hora</p>
+                            <p>Padrão internacional para representação de datas (AAAA-MM-DD), garantindo
+                                interoperabilidade temporal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Análise da Situação Atual -->
+                <div class="situation-analysis">
+                    <h3><i class="fas fa-chart-line"></i> Análise da Situação Atual no Estado de São Paulo</h3>
+                    <div class="analysis-content">
+                        <div class="analysis-finding">
+                            <div class="finding-icon finding-positive"><i class="fas fa-check-circle"></i></div>
+                            <div class="finding-content">
+                                <h4>Dados Geoespaciais: Estrutura Normativa Existente</h4>
+                                <p>O Estado de São Paulo possui <strong>instrumento normativo específico e
+                                        robusto</strong> para dados geoespaciais através do Decreto 64.056/2020,
+                                    alinhado com padrões nacionais (INDE) e internacionais (ISO).</p>
+                            </div>
+                        </div>
+                        <div class="analysis-finding">
+                            <div class="finding-icon finding-warning"><i class="fas fa-exclamation-triangle"></i></div>
+                            <div class="finding-content">
+                                <h4>Dados Não Geoespaciais: Lacuna Normativa Específica</h4>
+                                <p><strong>Não existe instrumento normativo estadual específico</strong> que padronize
+                                    detalhadamente a nomenclatura de arquivos não geoespaciais. Existem apenas
+                                    diretrizes gerais do SAESP e referências ao e-ARQ Brasil (federal).</p>
+                            </div>
+                        </div>
+                        <div class="analysis-finding">
+                            <div class="finding-icon finding-neutral"><i class="fas fa-lightbulb"></i></div>
+                            <div class="finding-content">
+                                <h4>Oportunidade de Padronização</h4>
+                                <p>A Subsecretaria de Logística tem a <strong>oportunidade de estabelecer um padrão
+                                        pioneiro</strong> que pode servir de referência para outros órgãos do Estado,
+                                    preenchendo a lacuna identificada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boas Práticas -->
+                <div class="best-practices">
+                    <h3><i class="fas fa-star"></i> Boas Práticas Identificadas</h3>
+                    <div class="practices-grid">
+                        <div class="practice-card">
+                            <div class="practice-header">
+                                <i class="fas fa-book"></i>
+                                <h4>Biblioteca Nacional</h4>
+                            </div>
+                            <ul>
+                                <li>MARC21 para catalogação</li>
+                                <li>Dublin Core para metadados</li>
+                                <li>Descritores controlados</li>
+                            </ul>
+                        </div>
+                        <div class="practice-card">
+                            <div class="practice-header">
+                                <i class="fas fa-university"></i>
+                                <h4>Arquivo Nacional</h4>
+                            </div>
+                            <ul>
+                                <li>Nomenclatura clara e descritiva</li>
+                                <li>Uso de underscores ou hífens</li>
+                                <li>Data no formato ISO 8601</li>
+                                <li>Versionamento numérico</li>
+                            </ul>
+                        </div>
+                        <div class="practice-card">
+                            <div class="practice-header">
+                                <i class="fas fa-globe-americas"></i>
+                                <h4>INDE/CONCAR</h4>
+                            </div>
+                            <ul>
+                                <li>Padrões para dados geoespaciais</li>
+                                <li>Metadados estruturados</li>
+                                <li>Interoperabilidade</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Proposta -->
+        <section id="proposta" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-file-contract"></i> Proposta de Padronização</h2>
+                <p class="section-intro">Estrutura completa de nomenclatura fundamentada em instrumentos normativos e
+                    boas práticas.</p>
+
+                <!-- Tabs -->
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="geoespacial"><i class="fas fa-map-marked-alt"></i>
+                        Geoespaciais</button>
+                    <button class="tab-button" data-tab="nao-geoespacial"><i class="fas fa-file-alt"></i> Não
+                        Geoespaciais</button>
+                    <button class="tab-button" data-tab="regras"><i class="fas fa-list-check"></i> Regras
+                        Técnicas</button>
+                    <button class="tab-button" data-tab="metadados"><i class="fas fa-tags"></i> Metadados</button>
+                </div>
+
+                <!-- Tab Content: Geoespacial -->
+                <div class="tab-content active" id="tab-geoespacial">
+                    <div class="format-specification">
+                        <h3>Estrutura de Nomenclatura para Dados Geoespaciais</h3>
+                        <div class="format-box">
+                            <div class="format-structure">
+                                <code>[ORGAO]_[TEMA]_[DESCRICAO]_[ESCALA]_[ANO]_[VERSAO].[extensao]</code>
+                            </div>
+                            <div class="format-breakdown">
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">ORGAO</span>
+                                    <span class="breakdown-desc">Sigla do órgão (3-6 caracteres, MAIÚSCULAS) - Ex:
+                                        SUBLOG</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">TEMA</span>
+                                    <span class="breakdown-desc">Categoria temática - Ex: LOGISTICA, TRANSPORTE,
+                                        INFRAESTRUTURA</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">DESCRICAO</span>
+                                    <span class="breakdown-desc">Descrição objetiva (CamelCase, máx. 30
+                                        caracteres)</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">ESCALA</span>
+                                    <span class="breakdown-desc">Escala cartográfica - Ex: 1-250k, 1-50k, 1-10k</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">ANO</span>
+                                    <span class="breakdown-desc">Ano de referência (AAAA) - Ex: 2026</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">VERSAO</span>
+                                    <span class="breakdown-desc">Versão do arquivo - Ex: v01, v02, v01.1</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="themes-section">
+                            <h4>Temas Padronizados</h4>
+                            <div class="themes-grid">
+                                <div class="theme-tag">LOGISTICA</div>
+                                <div class="theme-tag">TRANSPORTE</div>
+                                <div class="theme-tag">INFRAESTRUTURA</div>
+                                <div class="theme-tag">TERRITORIAL</div>
+                                <div class="theme-tag">AMBIENTAL</div>
+                                <div class="theme-tag">DEMOGRAFICO</div>
+                                <div class="theme-tag">ECONOMICO</div>
+                            </div>
+                        </div>
+
+                        <div class="examples-section">
+                            <h4>Exemplos Práticos</h4>
+                            <div class="example-list">
+                                <div class="example-item">
+                                    <i class="fas fa-warehouse"></i>
+                                    <code>SUBLOG_LOGISTICA_CentrosDistribuicao_1-50k_2026_v01.gpkg</code>
+                                    <span class="example-label">Vetorial - GeoPackage</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-route"></i>
+                                    <code>SUBLOG_TRANSPORTE_RotasAbastecimento_1-250k_2026_v02.shp</code>
+                                    <span class="example-label">Vetorial - Shapefile</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-building"></i>
+                                    <code>SUBLOG_INFRAESTRUTURA_ArmazensEstaduais_1-10k_2026_v01.geojson</code>
+                                    <span class="example-label">Vetorial - GeoJSON</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-map"></i>
+                                    <code>SUBLOG_LOGISTICA_MapaCalorDemanda_1-100k_2026_v01.tif</code>
+                                    <span class="example-label">Matricial - GeoTIFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-system">
+                            <h4><i class="fas fa-globe"></i> Sistema de Referência Espacial Padrão</h4>
+                            <div class="srs-box">
+                                <div class="srs-name">SIRGAS 2000 / UTM Zone 23S</div>
+                                <div class="srs-code">EPSG:31983</div>
+                                <p>Sistema de referência oficial para o Estado de São Paulo conforme Decreto 64.056/2020
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Content: Não Geoespacial -->
+                <div class="tab-content" id="tab-nao-geoespacial">
+                    <div class="format-specification">
+                        <h3>Estrutura de Nomenclatura para Dados Não Geoespaciais</h3>
+                        <div class="format-box">
+                            <div class="format-structure">
+                                <code>[ORGAO]_[CATEGORIA]_[DESCRICAO]_[DATA]_[VERSAO].[extensao]</code>
+                            </div>
+                            <div class="format-breakdown">
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">ORGAO</span>
+                                    <span class="breakdown-desc">Sigla do órgão (3-6 caracteres) - Ex: SUBLOG</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">CATEGORIA</span>
+                                    <span class="breakdown-desc">Tipo de documento - Ex: RELATORIO, CONTRATO,
+                                        PLANO</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">DESCRICAO</span>
+                                    <span class="breakdown-desc">Descrição objetiva (CamelCase, máx. 40
+                                        caracteres)</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">DATA</span>
+                                    <span class="breakdown-desc">Data (AAAA-MM-DD ou AAAA-MM) - Ex: 2026-01-21</span>
+                                </div>
+                                <div class="breakdown-item">
+                                    <span class="breakdown-field">VERSAO</span>
+                                    <span class="breakdown-desc">Versão do documento - Ex: v01, v02, v01.1</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="categories-section">
+                            <h4>Categorias Padronizadas</h4>
+                            <div class="categories-grid">
+                                <div class="category-card">
+                                    <i class="fas fa-file-alt"></i>
+                                    <h5>RELATORIO</h5>
+                                    <p>Relatórios técnicos e gerenciais</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-file-contract"></i>
+                                    <h5>CONTRATO</h5>
+                                    <p>Contratos e termos</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-clipboard-list"></i>
+                                    <h5>PLANO</h5>
+                                    <p>Planos estratégicos</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-table"></i>
+                                    <h5>PLANILHA</h5>
+                                    <p>Planilhas de controle</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-database"></i>
+                                    <h5>DADOS</h5>
+                                    <p>Bases de dados tabulares</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-handshake"></i>
+                                    <h5>ATA</h5>
+                                    <p>Atas de reuniões</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-envelope"></i>
+                                    <h5>MEMORANDO</h5>
+                                    <p>Comunicações internas</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <h5>OFICIO</h5>
+                                    <p>Comunicações oficiais</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-presentation"></i>
+                                    <h5>APRESENTACAO</h5>
+                                    <p>Slides e apresentações</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-book"></i>
+                                    <h5>MANUAL</h5>
+                                    <p>Manuais e procedimentos</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-gavel"></i>
+                                    <h5>NORMATIVO</h5>
+                                    <p>Normas e regulamentos</p>
+                                </div>
+                                <div class="category-card">
+                                    <i class="fas fa-camera"></i>
+                                    <h5>FOTO</h5>
+                                    <p>Fotografias</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="examples-section">
+                            <h4>Exemplos por Categoria</h4>
+                            <div class="example-list">
+                                <div class="example-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <code>SUBLOG_RELATORIO_GestaoMensal_2026-01_v01.pdf</code>
+                                    <span class="example-label">Relatório</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-file-contract"></i>
+                                    <code>SUBLOG_CONTRATO_PregaoEletronico_123-2026_v01.pdf</code>
+                                    <span class="example-label">Contrato</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-file-excel"></i>
+                                    <code>SUBLOG_PLANILHA_OrcamentoAnual_2026_v03.xlsx</code>
+                                    <span class="example-label">Planilha</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-file-csv"></i>
+                                    <code>SUBLOG_DADOS_InventarioEstoque_2026-01-21_v01.csv</code>
+                                    <span class="example-label">Dados Tabulares</span>
+                                </div>
+                                <div class="example-item">
+                                    <i class="fas fa-file-powerpoint"></i>
+                                    <code>SUBLOG_APRESENTACAO_ResultadosAno_2025_v01.pptx</code>
+                                    <span class="example-label">Apresentação</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Content: Regras Técnicas -->
+                <div class="tab-content" id="tab-regras">
+                    <div class="rules-content">
+                        <h3>Regras Técnicas de Nomenclatura</h3>
+
+                        <div class="rules-grid">
+                            <div class="rule-box rule-allowed">
+                                <h4><i class="fas fa-check-circle"></i> Caracteres Permitidos</h4>
+                                <ul>
+                                    <li><strong>Letras:</strong> A-Z, a-z (sem acentos)</li>
+                                    <li><strong>Números:</strong> 0-9</li>
+                                    <li><strong>Underscore:</strong> _ (separação de campos)</li>
+                                    <li><strong>Hífen:</strong> - (apenas em datas e intervalos)</li>
+                                    <li><strong>Ponto:</strong> . (apenas antes da extensão)</li>
+                                </ul>
+                            </div>
+
+                            <div class="rule-box rule-forbidden">
+                                <h4><i class="fas fa-times-circle"></i> Caracteres Não Permitidos</h4>
+                                <ul>
+                                    <li><strong>Espaços</strong> (substituir por underscore)</li>
+                                    <li><strong>Acentuação:</strong> á, é, í, ó, ú, ã, õ, ç</li>
+                                    <li><strong>Caracteres especiais:</strong> / \ : * ? " <> |</li>
+                                    <li><strong>Símbolos:</strong> # % & { } $ ! @ + = [ ] ( ) ' `</li>
+                                    <li><strong>Iniciar com número ou símbolo</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="conventions-section">
+                            <h4>Convenções de Escrita</h4>
+                            <div class="convention-cards">
+                                <div class="convention-card">
+                                    <h5><i class="fas fa-font"></i> CamelCase</h5>
+                                    <p>Para descrições compostas, capitalize cada palavra</p>
+                                    <div class="convention-examples">
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>PlanoEstrategico</span>
+                                        </div>
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>RelatorioMensal</span>
+                                        </div>
+                                        <div class="example-wrong">
+                                            <i class="fas fa-times"></i>
+                                            <span>planoestrategico</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="convention-card">
+                                    <h5><i class="fas fa-calendar"></i> Formato de Datas</h5>
+                                    <p>Seguir padrão ISO 8601</p>
+                                    <div class="convention-examples">
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>2026-01-21 (completa)</span>
+                                        </div>
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>2026-01 (mensal)</span>
+                                        </div>
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>2026 (anual)</span>
+                                        </div>
+                                        <div class="example-wrong">
+                                            <i class="fas fa-times"></i>
+                                            <span>21-01-2026</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="convention-card">
+                                    <h5><i class="fas fa-code-branch"></i> Versionamento</h5>
+                                    <p>Sempre com "v" + 2 dígitos mínimo</p>
+                                    <div class="convention-examples">
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>v01 (primeira versão)</span>
+                                        </div>
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>v02 (mudança significativa)</span>
+                                        </div>
+                                        <div class="example-correct">
+                                            <i class="fas fa-check"></i>
+                                            <span>v01.1 (revisão menor)</span>
+                                        </div>
+                                        <div class="example-wrong">
+                                            <i class="fas fa-times"></i>
+                                            <span>v1, version01</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="convention-card">
+                                    <h5><i class="fas fa-ruler"></i> Limites de Tamanho</h5>
+                                    <p>Tamanho recomendado dos elementos</p>
+                                    <div class="size-limits">
+                                        <div class="limit-item">
+                                            <span class="limit-label">Nome completo:</span>
+                                            <span class="limit-value">100 caracteres (recomendado)</span>
+                                        </div>
+                                        <div class="limit-item">
+                                            <span class="limit-label">DESCRICAO:</span>
+                                            <span class="limit-value">30-40 caracteres</span>
+                                        </div>
+                                        <div class="limit-item">
+                                            <span class="limit-label">CATEGORIA:</span>
+                                            <span class="limit-value">20 caracteres</span>
+                                        </div>
+                                        <div class="limit-item">
+                                            <span class="limit-label">Limite técnico:</span>
+                                            <span class="limit-value">255 caracteres (sistema)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comparison-section">
+                            <h4>Comparação: Correto vs Incorreto</h4>
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th><i class="fas fa-times-circle"></i> Incorreto</th>
+                                        <th><i class="fas fa-check-circle"></i> Correto</th>
+                                        <th>Problema Corrigido</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>Relatório Mensal.pdf</code></td>
+                                        <td><code>SUBLOG_RELATORIO_Mensal_2026-01_v01.pdf</code></td>
+                                        <td>Espaços, acentos, falta de estrutura</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>contrato-123.pdf</code></td>
+                                        <td><code>SUBLOG_CONTRATO_Pregao123_2026-01-15_v01.pdf</code></td>
+                                        <td>Padrão de nomenclatura completo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>armazens2026.shp</code></td>
+                                        <td><code>SUBLOG_INFRAESTRUTURA_Armazens_1-50k_2026_v01.shp</code></td>
+                                        <td>Estrutura geoespacial completa</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>planilha_orcamento_v1.xlsx</code></td>
+                                        <td><code>SUBLOG_PLANILHA_Orcamento_2026_v01.xlsx</code></td>
+                                        <td>Versão com 2 dígitos, estrutura</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Content: Metadados -->
+                <div class="tab-content" id="tab-metadados">
+                    <div class="metadata-content">
+                        <h3>Metadados Obrigatórios</h3>
+
+                        <div class="metadata-section">
+                            <h4><i class="fas fa-map-marked-alt"></i> Dados Geoespaciais (Conforme INDE/MGB)</h4>
+                            <div class="metadata-card">
+                                <div class="metadata-category">
+                                    <h5>Identificação</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Título do Recurso</li>
+                                        <li><i class="fas fa-check"></i> Data de Criação</li>
+                                        <li><i class="fas fa-check"></i> Data de Publicação</li>
+                                        <li><i class="fas fa-check"></i> Data de Revisão</li>
+                                        <li><i class="fas fa-check"></i> Responsável pela Produção</li>
+                                        <li><i class="fas fa-check"></i> Ponto de Contato</li>
+                                        <li><i class="fas fa-check"></i> Resumo/Abstract (mín. 100 caracteres)</li>
+                                        <li><i class="fas fa-check"></i> Palavras-chave (mín. 3)</li>
+                                    </ul>
+                                </div>
+                                <div class="metadata-category">
+                                    <h5>Espacial</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Sistema de Referência (EPSG)</li>
+                                        <li><i class="fas fa-check"></i> Extensão Geográfica (Bounding Box)</li>
+                                        <li><i class="fas fa-check"></i> Escala Equivalente</li>
+                                        <li><i class="fas fa-check"></i> Nível de Detalhe</li>
+                                    </ul>
+                                </div>
+                                <div class="metadata-category">
+                                    <h5>Qualidade</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Linhagem/Origem dos Dados</li>
+                                        <li><i class="fas fa-check"></i> Precisão Posicional</li>
+                                        <li><i class="fas fa-check"></i> Completude</li>
+                                        <li><i class="fas fa-check"></i> Consistência</li>
+                                    </ul>
+                                </div>
+                                <div class="metadata-category">
+                                    <h5>Distribuição</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Formato de Distribuição</li>
+                                        <li><i class="fas fa-check"></i> Restrições de Acesso</li>
+                                        <li><i class="fas fa-check"></i> Restrições de Uso</li>
+                                        <li><i class="fas fa-check"></i> Licença</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="metadata-section">
+                            <h4><i class="fas fa-file-alt"></i> Dados Não Geoespaciais (Conforme e-ARQ Brasil)</h4>
+                            <div class="metadata-card">
+                                <div class="metadata-category">
+                                    <h5>Identificação</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Título</li>
+                                        <li><i class="fas fa-check"></i> Autor/Produtor</li>
+                                        <li><i class="fas fa-check"></i> Data de Criação</li>
+                                        <li><i class="fas fa-check"></i> Data de Modificação</li>
+                                        <li><i class="fas fa-check"></i> Assunto/Tema</li>
+                                        <li><i class="fas fa-check"></i> Descrição</li>
+                                        <li><i class="fas fa-check"></i> Palavras-chave</li>
+                                    </ul>
+                                </div>
+                                <div class="metadata-category">
+                                    <h5>Gestão</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Código de Classificação (SAESP)</li>
+                                        <li><i class="fas fa-check"></i> Temporalidade</li>
+                                        <li><i class="fas fa-check"></i> Destinação Final</li>
+                                        <li><i class="fas fa-check"></i> Restrições de Acesso</li>
+                                        <li><i class="fas fa-check"></i> Versão</li>
+                                    </ul>
+                                </div>
+                                <div class="metadata-category">
+                                    <h5>Técnico</h5>
+                                    <ul class="metadata-list">
+                                        <li><i class="fas fa-check"></i> Formato de Arquivo</li>
+                                        <li><i class="fas fa-check"></i> Tamanho</li>
+                                        <li><i class="fas fa-check"></i> Software de Criação</li>
+                                        <li><i class="fas fa-check"></i> Checksum (MD5/SHA256)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="metadata-example">
+                            <h4>Exemplo de Metadados XML (ISO 19139)</h4>
+                            <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+  &lt;gmd:fileIdentifier&gt;
+    &lt;gco:CharacterString&gt;SUBLOG_LOGISTICA_CentrosDistribuicao_2026&lt;/gco:CharacterString&gt;
+  &lt;/gmd:fileIdentifier&gt;
+  &lt;gmd:language&gt;
+    &lt;gco:CharacterString&gt;por&lt;/gco:CharacterString&gt;
+  &lt;/gmd:language&gt;
+  &lt;gmd:characterSet&gt;
+    &lt;gmd:MD_CharacterSetCode codeList="UTF-8" codeListValue="utf8"/&gt;
+  &lt;/gmd:characterSet&gt;
+  &lt;gmd:contact&gt;
+    &lt;gmd:CI_ResponsibleParty&gt;
+      &lt;gmd:organisationName&gt;
+        &lt;gco:CharacterString&gt;Subsecretaria de Logística - SP&lt;/gco:CharacterString&gt;
+      &lt;/gmd:organisationName&gt;
+    &lt;/gmd:CI_ResponsibleParty&gt;
+  &lt;/gmd:contact&gt;
+  &lt;!-- Mais campos de metadados... --&gt;
+&lt;/gmd:MD_Metadata&gt;</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Exemplos -->
+        <section id="exemplos" class="section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-code"></i> Exemplos Práticos Completos</h2>
+                <p class="section-intro">Exemplos detalhados de aplicação da padronização em cenários reais.</p>
+
+                <div class="example-projects">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>Projeto: Mapeamento de Armazéns Estaduais 2026</h3>
+                        </div>
+                        <div class="project-body">
+                            <h4>Estrutura de Pastas:</h4>
+                            <div class="folder-structure">
+                                <pre>PROJETO_MAPEAMENTO_ARMAZENS_2026/
+├── 01_DOCUMENTOS/
+│   ├── SUBLOG_PLANO_ProjetoMapeamentoArmazens_2026_v01.pdf
+│   ├── SUBLOG_RELATORIO_LevantamentoCampo_2026-01_v01.pdf
+│   └── SUBLOG_MANUAL_ProcedimentosCadastro_2026_v01.pdf
+├── 02_DADOS_GEOESPACIAIS/
+│   ├── SUBLOG_INFRAESTRUTURA_ArmazensEstaduais_1-10k_2026_v01.gpkg
+│   ├── SUBLOG_INFRAESTRUTURA_ArmazensEstaduais_1-10k_2026_v01.xml
+│   └── SUBLOG_LOGISTICA_AreaInfluenciaArmazens_1-50k_2026_v01.gpkg
+├── 03_DADOS_TABULARES/
+│   ├── SUBLOG_DADOS_CadastroArmazens_2026-01-21_v01.csv
+│   └── SUBLOG_PLANILHA_AnaliseCapacidade_2026-01_v01.xlsx
+└── 04_APRESENTACOES/
+    └── SUBLOG_APRESENTACAO_ResultadosMapeamento_2026-01_v01.pptx</pre>
+                            </div>
+
+                            <h4>Estrutura de Atributos (ArmazensEstaduais.gpkg):</h4>
+                            <table class="attributes-table">
+                                <thead>
+                                    <tr>
+                                        <th>Campo</th>
+                                        <th>Tipo</th>
+                                        <th>Descrição</th>
+                                        <th>Domínio/Formato</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>id_armazem</td>
+                                        <td>Integer</td>
+                                        <td>ID único do armazém</td>
+                                        <td>Sequencial</td>
+                                    </tr>
+                                    <tr>
+                                        <td>codigo_armazem</td>
+                                        <td>Text(20)</td>
+                                        <td>Código oficial</td>
+                                        <td>"ARM-SP-XXX"</td>
+                                    </tr>
+                                    <tr>
+                                        <td>nome_armazem</td>
+                                        <td>Text(100)</td>
+                                        <td>Nome completo</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>tipo_armazem</td>
+                                        <td>Text(30)</td>
+                                        <td>Tipo de armazém</td>
+                                        <td>ARMAZEM_GERAL, SILO, FRIGORIFICO, PATIO</td>
+                                    </tr>
+                                    <tr>
+                                        <td>municipio</td>
+                                        <td>Text(60)</td>
+                                        <td>Município</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>area_construida_m2</td>
+                                        <td>Float</td>
+                                        <td>Área construída (m²)</td>
+                                        <td>&gt; 0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>capacidade_toneladas</td>
+                                        <td>Float</td>
+                                        <td>Capacidade em toneladas</td>
+                                        <td>&gt; 0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>situacao_operacional</td>
+                                        <td>Text(20)</td>
+                                        <td>Situação operacional</td>
+                                        <td>ATIVO, INATIVO, EM_REFORMA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>data_cadastro</td>
+                                        <td>Date</td>
+                                        <td>Data de cadastro</td>
+                                        <td>AAAA-MM-DD</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Implementação -->
+        <section id="implementacao" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-tasks"></i> Plano de Implementação</h2>
+                <p class="section-intro">Cronograma e procedimentos para implantação gradual da padronização.</p>
+
+                <div class="implementation-timeline">
+                    <div class="phase-card">
+                        <div class="phase-number">1</div>
+                        <div class="phase-content">
+                            <h3>Preparação</h3>
+                            <div class="phase-duration">Semanas 1-2</div>
+                            <ul>
+                                <li>Aprovação oficial da proposta</li>
+                                <li>Designação de responsável</li>
+                                <li>Comunicação às áreas</li>
+                                <li>Elaboração de material de treinamento</li>
+                            </ul>
+                            <div class="phase-deliverables">
+                                <strong>Entregas:</strong> Portaria aprovada, Equipe designada, Calendário de
+                                treinamentos
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phase-card">
+                        <div class="phase-number">2</div>
+                        <div class="phase-content">
+                            <h3>Capacitação</h3>
+                            <div class="phase-duration">Semanas 3-4</div>
+                            <ul>
+                                <li>Treinamento das equipes</li>
+                                <li>Distribuição de manual</li>
+                                <li>Criação de FAQ</li>
+                                <li>Definição de multiplicadores</li>
+                            </ul>
+                            <div class="phase-deliverables">
+                                <strong>Entregas:</strong> Equipes capacitadas, Manual distribuído, Canal de suporte
+                                ativo
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phase-card">
+                        <div class="phase-number">3</div>
+                        <div class="phase-content">
+                            <h3>Implementação Gradual</h3>
+                            <div class="phase-duration">Meses 2-3</div>
+                            <ul>
+                                <li>Aplicar padrão a documentos novos</li>
+                                <li>Adequação de documentos prioritários</li>
+                                <li>Monitoramento contínuo</li>
+                                <li>Ajustes conforme feedback</li>
+                            </ul>
+                            <div class="phase-deliverables">
+                                <strong>Prioridades:</strong> Dados geoespaciais estratégicos, Documentos de
+                                planejamento, Contratos ativos
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phase-card">
+                        <div class="phase-number">4</div>
+                        <div class="phase-content">
+                            <h3>Consolidação</h3>
+                            <div class="phase-duration">Mês 4+</div>
+                            <ul>
+                                <li>Auditoria de conformidade</li>
+                                <li>Correção de não conformidades</li>
+                                <li>Atualização do manual</li>
+                                <li>Institucionalização do padrão</li>
+                            </ul>
+                            <div class="phase-deliverables">
+                                <strong>Meta:</strong> 100% novos arquivos padronizados, 80% arquivos existentes
+                                adequados
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="responsibilities">
+                    <h3>Responsabilidades</h3>
+                    <div class="responsibility-grid">
+                        <div class="responsibility-card">
+                            <div class="responsibility-icon"><i class="fas fa-user-shield"></i></div>
+                            <h4>Gestor de Dados</h4>
+                            <ul>
+                                <li>Zelar pela aplicação dos padrões</li>
+                                <li>Validar nomenclaturas</li>
+                                <li>Manter glossário atualizado</li>
+                                <li>Treinar novos colaboradores</li>
+                            </ul>
+                        </div>
+                        <div class="responsibility-card">
+                            <div class="responsibility-icon"><i class="fas fa-users"></i></div>
+                            <h4>Produtores de Dados</h4>
+                            <ul>
+                                <li>Aplicar padrões em novos arquivos</li>
+                                <li>Preencher metadados obrigatórios</li>
+                                <li>Manter controle de versões</li>
+                                <li>Reportar dificuldades</li>
+                            </ul>
+                        </div>
+                        <div class="responsibility-card">
+                            <div class="responsibility-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h4>Equipe de TI/GIS</h4>
+                            <ul>
+                                <li>Configurar sistemas</li>
+                                <li>Criar templates e formulários</li>
+                                <li>Automatizar processos</li>
+                                <li>Realizar backups</li>
+                            </ul>
+                        </div>
+                        <div class="responsibility-card">
+                            <div class="responsibility-icon"><i class="fas fa-user-tie"></i></div>
+                            <h4>Gestores de Área</h4>
+                            <ul>
+                                <li>Garantir aplicação do padrão</li>
+                                <li>Acompanhar conformidade</li>
+                                <li>Apoiar capacitação</li>
+                                <li>Priorizar adequações</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Ferramentas -->
+        <section id="ferramentas" class="section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-tools"></i> Ferramentas e Validação</h2>
+                <p class="section-intro">Ferramentas para facilitar a aplicação e validação da padronização.</p>
+
+                <!-- Validador de Nomenclatura -->
+                <div class="tool-card">
+                    <h3><i class="fas fa-check-double"></i> Validador de Nomenclatura</h3>
+                    <p>Valide se o nome do arquivo está conforme o padrão estabelecido.</p>
+
+                    <div class="validator-tool">
+                        <div class="validator-input">
+                            <label for="filename-input">Nome do Arquivo:</label>
+                            <input type="text" id="filename-input" placeholder="Digite o nome do arquivo..."
+                                class="form-input">
+                            <div class="validator-options">
+                                <label class="radio-label">
+                                    <input type="radio" name="file-type" value="geoespacial" checked>
+                                    Geoespacial
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="file-type" value="nao-geoespacial">
+                                    Não Geoespacial
+                                </label>
+                            </div>
+                            <button id="validate-btn" class="btn btn-primary">Validar</button>
+                        </div>
+                        <div id="validation-result" class="validation-result"></div>
+                    </div>
+                </div>
+
+                <!-- Gerador de Nomenclatura -->
+                <div class="tool-card">
+                    <h3><i class="fas fa-magic"></i> Gerador de Nomenclatura</h3>
+                    <p>Gere automaticamente nomes de arquivos padronizados.</p>
+
+                    <div class="generator-tool">
+                        <div class="generator-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="gen-type">Tipo de Arquivo:</label>
+                                    <select id="gen-type" class="form-select" title="Selecione o tipo de arquivo">
+                                        <option value="geoespacial">Geoespacial</option>
+                                        <option value="nao-geoespacial">Não Geoespacial</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="gen-orgao">Órgão:</label>
+                                    <input type="text" id="gen-orgao" class="form-input" value="sublog" readonly
+                                        title="Sigla do órgão">
+                                </div>
+                            </div>
+
+                            <div id="geo-fields" class="conditional-fields">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="gen-tema">Tema:</label>
+                                        <select id="gen-tema" class="form-select" title="Selecione o tema geoespacial">
+                                            <option value="logistica">logistica</option>
+                                            <option value="transporte">transporte</option>
+                                            <option value="infraestrutura">infraestrutura</option>
+                                            <option value="territorial">territorial</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gen-escala">Escala:</label>
+                                        <select id="gen-escala" class="form-select"
+                                            title="Selecione a escala cartográfica">
+                                            <option value="1-5k">1-5k</option>
+                                            <option value="1-10k">1-10k</option>
+                                            <option value="1-50k">1-50k</option>
+                                            <option value="1-100k">1-100k</option>
+                                            <option value="1-250k">1-250k</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gen-ano">Ano:</label>
+                                        <input type="number" id="gen-ano" class="form-input" value="2026" min="2020"
+                                            max="2100" title="Informe o ano de referência">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="non-geo-fields" class="conditional-fields hidden">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="gen-categoria">Categoria:</label>
+                                        <select id="gen-categoria" class="form-select"
+                                            title="Selecione a categoria do documento">
+                                            <option value="relatorio">relatorio</option>
+                                            <option value="contrato">contrato</option>
+                                            <option value="plano">plano</option>
+                                            <option value="planilha">planilha</option>
+                                            <option value="dados">dados</option>
+                                            <option value="ata">ata</option>
+                                            <option value="memorando">memorando</option>
+                                            <option value="apresentacao">apresentacao</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gen-data">Data:</label>
+                                        <input type="date" id="gen-data" class="form-input"
+                                            title="Selecione a data do documento">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="gen-descricao">Descrição:</label>
+                                    <input type="text" id="gen-descricao" class="form-input"
+                                        placeholder="Ex: CentrosDistribuicao" title="Descrição do arquivo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gen-versao">Versão:</label>
+                                    <input type="text" id="gen-versao" class="form-input" value="v01"
+                                        title="Versão do arquivo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gen-extensao">Extensão:</label>
+                                    <input type="text" id="gen-extensao" class="form-input"
+                                        placeholder="Ex: pdf, gpkg, xlsx" title="Extensão do arquivo">
+                                </div>
+                            </div>
+
+                            <button id="generate-btn" class="btn btn-success">Gerar Nome</button>
+                        </div>
+                        <div id="generated-result" class="generated-result"></div>
+                    </div>
+                </div>
+
+                <!-- Checklist -->
+                <div class="tool-card">
+                    <h3><i class="fas fa-clipboard-check"></i> Checklist de Conformidade</h3>
+                    <div class="checklist">
+                        <div class="checklist-section">
+                            <h4>Verificação Geral</h4>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Nome sem espaços (usar underscore)</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Sem acentos ou caracteres especiais</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Categoria/Tema está na lista padronizada</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Data no formato ISO 8601 (AAAA-MM-DD)</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Versão com formato correto (v01, v02, v01.1)</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Extensão em minúsculas</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Nome com menos de 100 caracteres</span>
+                            </label>
+                        </div>
+
+                        <div class="checklist-section">
+                            <h4>Dados Geoespaciais (Adicional)</h4>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Escala no formato 1-XXXk</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Sistema de referência: SIRGAS 2000 (EPSG:31983)</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Arquivo de metadados XML criado</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checklist-item">
+                                <span>Atributos seguem padrão snake_case</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Subsecretaria de Logística</h4>
+                    <p>Estado de São Paulo</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>E-mail: padronizacao.sublog@sp.gov.br</p>
+                    <p>Telefone: (11) XXXX-XXXX</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Documentação</h4>
+                    <p><a href="#" class="footer-link">Manual Completo (PDF)</a></p>
+                    <p><a href="#" class="footer-link">Guia Rápido (PDF)</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Versão</h4>
+                    <p>Proposta v1.0</p>
+                    <p>Data: 21/01/2026</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Governo do Estado de São Paulo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
